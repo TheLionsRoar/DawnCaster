@@ -1,0 +1,171 @@
+macro "macro"
+	elem 
+		name = "SPACE"
+		command = "FireKey 1"
+		is-disabled = false
+	elem 
+		name = "SPACE+UP"
+		command = "FireKey 0"
+		is-disabled = false
+	elem 
+		name = "WEST"
+		command = "AnalogKey 8 1"
+		is-disabled = false
+	elem 
+		name = "WEST+UP"
+		command = "AnalogKey 8 0"
+		is-disabled = false
+	elem 
+		name = "EAST"
+		command = "AnalogKey 4 1"
+		is-disabled = false
+	elem 
+		name = "EAST+UP"
+		command = "AnalogKey 4 0"
+		is-disabled = false
+	elem 
+		name = "1"
+		command = "WeaponKey 1"
+		is-disabled = false
+	elem 
+		name = "2"
+		command = "WeaponKey 2"
+		is-disabled = false
+	elem 
+		name = "3"
+		command = "WeaponKey 3"
+		is-disabled = false
+	elem 
+		name = "A"
+		command = "MoveKey 8 1"
+		is-disabled = false
+	elem 
+		name = "A+UP"
+		command = "MoveKey 8 0"
+		is-disabled = false
+	elem 
+		name = "D"
+		command = "MoveKey 4 1"
+		is-disabled = false
+	elem 
+		name = "D+UP"
+		command = "MoveKey 4 0"
+		is-disabled = false
+	elem 
+		name = "E"
+		command = "AnalogKey 4 1"
+		is-disabled = false
+	elem 
+		name = "E+UP"
+		command = "AnalogKey 4 0"
+		is-disabled = false
+	elem 
+		name = "Q"
+		command = "AnalogKey 8 1"
+		is-disabled = false
+	elem 
+		name = "Q+UP"
+		command = "AnalogKey 8 0"
+		is-disabled = false
+	elem 
+		name = "R"
+		command = "ReloadKey"
+		is-disabled = false
+	elem 
+		name = "S"
+		command = "MoveKey 2 1"
+		is-disabled = false
+	elem 
+		name = "S+UP"
+		command = "MoveKey 2 0"
+		is-disabled = false
+	elem 
+		name = "W"
+		command = "MoveKey 1 1"
+		is-disabled = false
+	elem 
+		name = "W+UP"
+		command = "MoveKey 1 0"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 1264,406
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = ""
+		titlebar = true
+		statusbar = true
+		can-close = true
+		can-minimize = true
+		can-resize = false
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = ""
+		on-close = ""
+	elem "map1"
+		type = MAP
+		pos = 0,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = none
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = true
+		right-click = false
+		saved-params = "icon-size"
+		on-size = ""
+		icon-size = 512
+		text-mode = false
+		letterbox = true
+		zoom = 16
+		on-show = ""
+		on-hide = ""
+		style = ""
+

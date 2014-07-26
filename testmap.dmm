@@ -1,0 +1,61 @@
+"a" = (/turf{density = 1; icon = 'wall1.dmi'; opacity = 1},/area)
+"b" = (/turf{density = 1; icon = 'wall4.dmi'; opacity = 1},/area)
+"c" = (/turf{density = 1; icon = 'wall2.dmi'; opacity = 1},/area)
+"d" = (/mob/enemy/slicer,/turf,/area)
+"e" = (/obj/pickup/armor,/turf,/area)
+"f" = (/obj/eggclutch,/turf,/area)
+"g" = (/obj/pickup/key{icon_state = "bkey"; keycode = "blue"},/turf,/area)
+"h" = (/mob/enemy/tick,/turf,/area)
+"i" = (/turf,/area)
+"j" = (/obj{icon = 'deco.dmi'; icon_state = "1"},/mob/enemy/tick,/turf,/area)
+"k" = (/obj{icon = 'deco.dmi'},/turf,/area)
+"l" = (/obj{icon = 'deco.dmi'; icon_state = "1"},/mob/enemy/spitter,/turf,/area)
+"m" = (/obj/pickup/ammo{step_x = 0; step_y = 0; stack = 14},/turf,/area)
+"n" = (/obj{icon = 'deco.dmi'},/obj/pickup/healthpack,/turf,/area)
+"o" = (/mob/enemy/spitter,/turf,/area)
+"p" = (/obj{icon = 'deco.dmi'; icon_state = "1"},/turf,/area)
+"q" = (/obj{icon = 'deco.dmi'; icon_state = "1"},/obj/pickup/armor,/turf,/area)
+"r" = (/obj/pickup/healthpack,/turf,/area)
+"s" = (/obj{icon = 'deco.dmi'},/mob/enemy/slicer,/turf,/area)
+"t" = (/obj/pickup/ammo{icon_state = "mgclip"; stack = 15; step_x = 0; step_y = 0; weapon = 3},/turf,/area)
+"u" = (/turf/door{density = 1; icon = 'wall3.dmi'; opacity = 1},/area)
+"v" = (/obj/pickup/key{icon_state = "rkey"; keycode = "red"},/turf,/area)
+"w" = (/obj{icon = 'deco.dmi'},/obj/pickup/ammo{icon_state = "mgclip"; stack = 15; step_x = 0; step_y = 0; weapon = 3},/turf,/area)
+"x" = (/obj{icon = 'deco.dmi'},/mob/enemy/spitter,/turf,/area)
+"y" = (/turf/door{density = 1; icon = 'wall6.dmi'; lock = "red"; opacity = 1},/area)
+"z" = (/turf/door{density = 1; icon = 'wall7.dmi'; lock = "gold"; opacity = 1},/area)
+"A" = (/turf/door{density = 1; icon = 'wall5.dmi'; lock = "blue"; opacity = 1},/area)
+"B" = (/obj/pickup/ammo{step_x = -15; step_y = 9; stack = 14},/turf,/area)
+"C" = (/obj{icon = 'deco.dmi'},/obj/pickup/armor,/turf,/area)
+"D" = (/obj/pickup/key{icon_state = "ykey"; keycode = "gold"},/turf,/area)
+"E" = (/obj/pickup/mgun,/turf,/area)
+"F" = (/obj/pickup/ammo{step_x = -13; step_y = 38; stack = 14},/turf,/area)
+"G" = (/obj{icon = 'deco.dmi'; icon_state = "1"},/obj/pickup/healthpack,/turf,/area)
+
+(1,1,1) = {"
+abababaabacaabaacbcaacbca
+adefghcfijkiilkamnopkaqfc
+apoiprapsiaiatfaphfcicida
+btkiidbabafkacaciabaipkmc
+afpikfafpkaliftbkoiakcaua
+ahakacatkoiakdicfikiibkoa
+aabibfoaipfbijfaaciafcfpc
+cfaiakikhtaauabvwepaabaia
+adkiipdifaadfxacfdimckdic
+aacicaipicphihtahpxfaepka
+ctpixfcayafkiiaabacbazaba
+aabacbaiiciepfciidamoipkc
+akiifkakdaauacaifiakifiia
+bifpiiiipcfiiiziicaiacaua
+aiikphaifaiipdafoadifiaic
+akiaacaiaaaAacacacipikbpb
+bpikBoaikaekiopafiiidmaoa
+cfrdfCaiibprDiiiikiicacuc
+aabcabakicacafkapoiiafika
+ckiiiipioiikacabiipmaipda
+aiipkiiiipiikifafkiabaiac
+caucacaicaifadkbcpaakEipa
+akiiaikiakipcpiakifcmdwmc
+cpikcfpfafFdafipiikafrGfa
+aabaacbacabcacacabaaccbaa
+"}

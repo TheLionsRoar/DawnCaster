@@ -1,0 +1,46 @@
+// DM Environment file for Dawncaster.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+/*
+FILE: 
+*/
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "graphics"
+#define FILE_DIR "graphics/enemies"
+#define FILE_DIR "graphics/environment"
+#define FILE_DIR "graphics/interface"
+#define FILE_DIR "graphics/items"
+#define FILE_DIR "sound"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Interface.dmf"
+#include "testmap.dmm"
+#include "code\#defines\defaults.dm"
+#include "code\#defines\sound.dm"
+#include "code\#defines\testcode.dm"
+#include "code\#include\ter13\prioritylist.dm"
+#include "code\actions\actions.dm"
+#include "code\actions\movement.dm"
+#include "code\client\keyevents.dm"
+#include "code\enemies\enemies.dm"
+#include "code\environment\door.dm"
+#include "code\pickups\pickups.dm"
+#include "code\player\player.dm"
+#include "code\projectiles\bullet.dm"
+#include "code\projectiles\enemybullet.dm"
+#include "code\projectiles\playerbullet.dm"
+#include "code\renderer\client_eye.dm"
+#include "code\renderer\renderer.dm"
+#include "code\weapons\weapon.dm"
+// END_INCLUDE
+
